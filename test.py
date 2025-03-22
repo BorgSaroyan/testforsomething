@@ -183,3 +183,5 @@ def main():
         except KeyboardInterrupt:
             logger.info("Server stopped by keyboard interrupt")
             httpd.shutdown()
+
+main() 
